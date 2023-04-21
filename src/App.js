@@ -5,6 +5,7 @@ import Footer from './Components/Footer'
 import Acessorios from './Components/Acessorios';
 import Camisas from './Components/Camisas'
 import Calcas from './Components/Calcas'
+import {Button, Carousel} from 'react-bootstrap'
 
 export default function App() {
   return (
@@ -19,6 +20,8 @@ export default function App() {
         </Routes>
         <Footer/>
     </BrowserRouter>
+
+    <Button bgStyle="primary">Clique aqui</Button>
     </div>
   );
 }
