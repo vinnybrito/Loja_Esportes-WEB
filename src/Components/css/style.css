@@ -2,16 +2,65 @@
 /*-----------------------------NAV-----------------------------*/
 
 #menu-nav {
-    background-color: blueviolet;
-    padding: 45px;
+    background-color: #27292b;
+    padding: 30px;
+    color: white;
+}
+
+#menu-nav nav h1 {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 35px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+#menu-nav nav h1 a {
+    text-decoration: none;
+    color: white;
+}
+
+#menu-nav nav ul {
+    display: flex;
+}
+
+#menu-nav nav ul li {
+    list-style: none;
+}
+
+#menu-nav nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    padding-right: 30px;
+}
+
+#menu-nav nav ul li a:hover {
+   text-shadow: 0px 0px 4px red;
+}
+
+#navegador {
+    display: flex;
+    justify-content: space-between;
 }
 
 
-#footer {
-    background-color: chartreuse;
-    padding: 45px;
-}
+/*-----------------------------HOME-----------------------------*/
 
 #home {
-    background-color: gray;
+    max-width: 1800px;
+}
+
+img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+
+/*-----------------------------FOOTER-----------------------------*/
+
+#footer {
+    background-color: #27292b;
+    padding: 45px;
 }

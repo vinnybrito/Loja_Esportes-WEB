@@ -6,7 +6,7 @@ export default function Nav() {
 
     return(
         <div id="menu-nav">
-            <nav>
+            <nav id='navegador'>
                 <h1>
                     <Link to="/">Athletic Planet</Link>
                 </h1>
@@ -17,6 +17,9 @@ export default function Nav() {
                     </li>
                     <li>
                         <Link to="/Calcas">Calças</Link>
+                    </li>
+                    <li>
+                        <Link to="/Tenis">Tênis</Link>
                     </li>
                     <li>
                         <Link to="/Acessorios">Acessórios</Link>
