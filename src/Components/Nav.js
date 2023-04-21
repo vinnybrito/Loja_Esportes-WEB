@@ -19,9 +19,6 @@ export default function Nav() {
                         <Link to="/Calcas">Calças</Link>
                     </li>
                     <li>
-                        <Link to="/Tenis">Tênis</Link>
-                    </li>
-                    <li>
                         <Link to="/Acessorios">Acessórios</Link>
                     </li>
                 </ul>

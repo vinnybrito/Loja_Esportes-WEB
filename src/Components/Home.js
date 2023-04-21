@@ -2,11 +2,13 @@ import React from "react"
 import '../index.css'
 import '../Components/css/style.css'
 import {Carousel } from "react-bootstrap";
+import {Link} from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import img1 from './img/slideshow01.jpg'
-import img2 from './img/slideshow02.jpg'
-import img3 from './img/slideshow03.jpg'
-import img4 from './img/slideshow04.jpg'
+
+import img1 from './img/slideshow01.png'
+import img2 from './img/slideshow02.png'
+import img3 from './img/slideshow03.png'
+
 
 
 export default function Home() {
@@ -24,25 +26,26 @@ export default function Home() {
                 </Carousel.Item>
 
                 <Carousel.Item>
-                    <img src={img3} alt="tenis"/>
+                    <img src={img3} alt="calças"/>
                 </Carousel.Item>
 
-                <Carousel.Item>
-                    <img src={img4} alt="acessorios" />
-                </Carousel.Item>
 
             </Carousel>
 
-            <section>
+            <section id="container">
 
-                <article>
-                    <img src="" alt="" />
+                <article className="box" id="cstyle">
+                    <p className="link-pages">
+                        Camisas
+                    </p>
                 </article>
-                <article>
-                    <img src="" alt="" />
+
+                <article className="box" id="cstylec">
+                    <p className="link-pages">Calças</p>
                 </article>
-                <article>
-                    <img src="" alt="" />
+
+                <article className="box" id="astyle">
+                    <p className="link-pages">Acessórios</p>
                 </article>
 
             </section>
