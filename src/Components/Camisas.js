@@ -117,9 +117,8 @@ export default function Camisas() {
             <section id='sec01'>
 
                 <article className='ctn'> {/*-------CAMISA 04-------*/}
-
                 
-                <div className='imgscamisas'>
+                    <div className='imgscamisas'>
                         <img src={camisa04} alt="camisa01" />
                     </div>
 

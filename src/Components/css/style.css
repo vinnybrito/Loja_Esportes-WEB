@@ -263,11 +263,22 @@ img {
 
 /*-----------------------------CALÇAS-----------------------------*/
 
-#calcas {
+.construcao {
     display: flex;
-    background-color: blueviolet;
+    flex-direction: column;
     justify-content: center;
-    margin-top: 50px;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.pconst {
+    font-size: 45px;
+    transition: 1s;
+}
+
+.pconst:hover {
+    font-size: 60px;
+    transition: 1s;
 }
 
 .siteConstrucao {
@@ -278,6 +289,12 @@ img {
 
 /*-----------------------------ACESSÓRIOS-----------------------------*/
 
+.siteConstrucao02 {
+    height: 400px;
+    width: 450px;
+    object-fit: cover;
+}
+
 /*-----------------------------FOOTER-----------------------------*/
 
 #footer {
@@ -285,8 +302,9 @@ img {
     padding: 45px;
     margin-top: 100px;
     color: white;
-    /*display: flex;*/
-    justify-content: center;
+    display: flex;
+    justify-content: space-between;
+    
 }
 
 .p-footer {
@@ -300,4 +318,29 @@ img {
     -webkit-background-clip: text;
     color: transparent;
     transition: 0.5s;
+}
+
+.mediaSocial {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    list-style: none;
+ }
+
+.mediaSocial li {
+    margin: 0 1em;
+}
+
+.mediaSocial svg {
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.mediaSocial svg:hover {
+    background-image: var(--gradient);
+}
+
+.pMS {
+    padding-top: 25px;
+    padding-right: 10px;
 }
