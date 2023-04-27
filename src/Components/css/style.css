@@ -260,3 +260,44 @@ img {
 .btn-comprar {
     margin-top: 15px;
 }
+
+/*-----------------------------CALÇAS-----------------------------*/
+
+#calcas {
+    display: flex;
+    background-color: blueviolet;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.siteConstrucao {
+    height: 400px;
+    width: 600px;
+    object-fit: cover;
+}
+
+/*-----------------------------ACESSÓRIOS-----------------------------*/
+
+/*-----------------------------FOOTER-----------------------------*/
+
+#footer {
+    background-color: black;
+    padding: 45px;
+    margin-top: 100px;
+    color: white;
+    /*display: flex;*/
+    justify-content: center;
+}
+
+.p-footer {
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.p-footer:hover {
+    background-image: var(--gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: 0.5s;
+}
