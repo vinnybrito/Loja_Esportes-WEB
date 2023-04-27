@@ -1,6 +1,7 @@
 import React from "react"
 import '../index.css'
 import '../Components/css/style.css'
+
 import {Carousel } from "react-bootstrap";
 import {Link} from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -10,8 +11,8 @@ import img2 from './img/slideshow02.png'
 import img3 from './img/slideshow03.png'
 
 
-
 export default function Home() {
+
     return(
         <div id="home">
 
@@ -29,26 +30,33 @@ export default function Home() {
                     <img src={img3} alt="calças"/>
                 </Carousel.Item>
 
-
             </Carousel>
 
             <section id="container">
 
-                <article className="box" id="cstyle">
-                    <p className="link-pages">
-                        Camisas
-                    </p>
-                </article>
+                <Link to="/Camisas">
+                    <article className="box" id="cstyle">
+                        <p className="link-pages">
+                            Camisas
+                        </p>
+                    </article>
+                </Link>
 
-                <article className="box" id="cstylec">
-                    <p className="link-pages">Calças</p>
-                </article>
+                <Link to="/Calcas">
+                    <article className="box" id="cstylec">
+                        <p className="link-pages">Calças</p>
+                    </article>
+                </Link>
 
+                <Link to="/Acessorios">
                 <article className="box" id="astyle">
-                    <p className="link-pages">Acessórios</p>
-                </article>
+                        <p className="link-pages">Acessórios</p>
+                    </article>
+                </Link>
 
             </section>
+
+            
         </div>
     )
 }

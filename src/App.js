@@ -6,6 +6,7 @@ import Acessorios from './Components/Acessorios';
 import Camisas from './Components/Camisas'
 import Calcas from './Components/Calcas'
 
+
 export default function App() {
   return (
     <div className="App">
