@@ -22,7 +22,7 @@ function Acessorio({ acessorio }) {
     }, [quantidade, acessorio.preco]);
 
     return (
-          <div className='camisas'>
+          <div>
 
             <section className='sec01'>
                 <article className='ctn' key={acessorio.id}>

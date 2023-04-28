@@ -19,7 +19,7 @@ function Calca({ calca }) {
     }, [quantidade, calca.preco]);
 
     return (
-          <div className='camisas'>
+          <div>
 
             <section className='sec01'>
                 <article className='ctn' key={calca.id}>

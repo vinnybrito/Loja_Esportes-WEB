@@ -14,7 +14,7 @@ export default function Footer() {
                     Vinícius Almeida Kotchetkoff - RM: 96331
                 </p>
             </div>
-            <div className='pMS'>
+            <div className='footer-social'>
                 <ul className='mediaSocial'>
                     <li>
                         <FaFacebook/>

@@ -18,7 +18,7 @@ function Camisa({ camisa }) {
     }, [quantidade, camisa.preco]);
 
     return (
-          <div className='camisas'>
+          <div>
 
             <section className='sec01'>
 
