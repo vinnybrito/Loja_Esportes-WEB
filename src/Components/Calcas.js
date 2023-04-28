@@ -2,13 +2,13 @@ import '../index.css'
 import '../Components/css/style.css'
 
 import {useState,useEffect} from 'react'
-import camisa01 from './img/Calças/calcaM01.png'
-import camisa02 from './img/Calças/calcaM02.png'
-import camisa03 from './img/Calças/calcaM03.png'
+import calca01 from './img/Calças/calcaM01.png'
+import calca02 from './img/Calças/calcaM02.png'
+import calca03 from './img/Calças/calcaM03.png'
 
-import camisa04 from './img/Calças/calcaF01.png'
-import camisa05 from './img/Calças/calcaF02.png'
-import camisa06 from './img/Calças/calcaF03.png'
+import calca04 from './img/Calças/calcaF01.png'
+import calca05 from './img/Calças/calcaF02.png'
+import calca06 from './img/Calças/calcaF03.png'
 
 function Calca({ calca }) {
     const [quantidade, setQuantidade] = useState(1);
@@ -76,19 +76,19 @@ export default function Calcas() {
     const calcas01 = [
         {
           id: 1,
-          imagem: camisa01,
+          imagem: calca01,
           nome: "Calça esportiva - Adidas",
           preco: "210.50",
         },
         {
           id: 2,
-          imagem: camisa02,
+          imagem: calca02,
           nome: "Calça esportiva - Nike",
           preco: "235.99",
         },
         {
           id: 3,
-          imagem: camisa03,
+          imagem: calca03,
           nome: "Calça esportiva - Puma",
           preco: "228.00",
         },
@@ -97,25 +97,25 @@ export default function Calcas() {
       const calcas02 = [
         {
           id: 4,
-          imagem: camisa04,
+          imagem: calca04,
           nome: "Calça esportiva - Adidas",
           preco: "399.99",
         },
         {
           id: 5,
-          imagem: camisa05,
+          imagem: calca05,
           nome: "Calça esportiva - Legging",
           preco: "361.00",
         },
         {
           id: 6,
-          imagem: camisa06,
+          imagem: calca06,
           nome: "Calça esportiva - Nike",
           preco: "385.00",
         },
       ];
 
-    return(
+    return (
         <div className='camisas'>
             <h1 className='camisasM'>Masculino</h1>
             <div className='sec01'>
