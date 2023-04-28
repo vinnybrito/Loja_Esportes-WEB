@@ -157,13 +157,13 @@ img {
 
 /*-----------------------------CAMISAS-----------------------------*/
 
-#sec01 {
+.sec01 {
     margin: auto;
     display: flex;
     justify-content: space-evenly;  
 }
 
-#camisasM {
+.camisasM {
     background-image: url('../img/atletas3.png');
     padding: 80px;
     display: flex;
@@ -171,7 +171,7 @@ img {
     color: white;
 }
 
-#camisasF {
+.camisasF {
     background-image: url('../img/atletasfemininas.png');
     padding: 80px;
     display: flex;
@@ -248,6 +248,8 @@ img {
     height: 50px;
     transition: 0.3s;
     border: 0px;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
 }
 
 .classComprar:hover {
@@ -303,8 +305,7 @@ img {
     margin-top: 100px;
     color: white;
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-between; 
 }
 
 .p-footer {
@@ -334,10 +335,13 @@ img {
 .mediaSocial svg {
     font-size: 40px;
     cursor: pointer;
+    transition: 1s;
 }
 
 .mediaSocial svg:hover {
     background-image: var(--gradient);
+    border-radius: 10px;
+    transition: 1s;
 }
 
 .pMS {

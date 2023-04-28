@@ -1,8 +1,9 @@
 import '../index.css'
 import '../Components/css/style.css'
-import {FaFacebook, FaInstagram,FaLinkedin} from 'react-icons/fa'
+import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa'
 
 export default function Footer() {
+    
     return(
         <footer id="footer">
             <div>
@@ -22,7 +23,7 @@ export default function Footer() {
                         <FaInstagram/>
                     </li>
                     <li>
-                        <FaLinkedin/>
+                        <FaTwitter/>
                     </li>
                 </ul>
             </div>        
